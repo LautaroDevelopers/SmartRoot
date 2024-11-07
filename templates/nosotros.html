@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ResQ</title>
+    <link rel="shortcut icon" href="static/img/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="static/css/estilos.css">
+    <link rel="stylesheet" href="static/css/MenuFlex.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <nav class="navv">
+            <div class="logo"><img class="logo" src="static/img/logo.png"></div>
+            <ul class="menu">
+                <li><a href="/">Inicio</a></li>
+                <li><a href="/#Animales-Adopcion">Plantas</a></li>
+                <li><a href="/#Consejos">Consejos</a></li>
+                <li><a href="/#Quirofano-movil">Quirofano Movil</a></li>
+                <li><a href="/covid">Sobre Nosotros</covid></a></li>
+            </ul>
+        </nav>
+        <section class="textos-header">
+            <h1>Sobre nosotros</h1>
+        </section>
+        <div class="wave" style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none"
+                style="height: 100%; width: 100%;">
+                <path d="M0.00,49.98 C150.00,150.00 349.20,-50.00 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
+                    style="stroke: none; fill: rgba(240, 240, 240, 1);"></path>
+            </svg></div>
+    </header>
+    <main>
+        <section class="contenedor sobre-nosotros">
+            <div class="contenedor-Administración">
+                <img src="img/ilustracion2.svg" alt="" class="imagen-about-us">
+                <div class="contenido-textos">
+                    <center>
+                        <h3>Somos un equipo de estudiantes de Conectados Por Mendoza Futura y decidimos
+                             crear esta página con el objetivo de ayudar a los animales en situación 
+                             de calle a encontrar un hogar</h3> 
+                    </center>       
+                </div>
+            </div>
+        </section>
+        <section class="portafolio">
+            <div class="contenedor">
+                <h2 class="titulo" id="Horarios">Integrantes </h2>
+                <div class="galeria-port">
+                    <div class="imagen-port">
+                        <img src="static/img/1.png" alt="">
+                        <div class="hover-galeria">
+                            <img class="Hora" src="static/img/equipo.png" alt="">
+                            <p><b>Agustin Álvarez</b></p>
+                            <hr>
+                            <hr>
+                            <p>15 años</p>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="static/img/3.png" alt="">
+                        <div class="hover-galeria">
+                            <img class="Hora" src="static/img/equipo.png" alt="">
+                            <p><b>Tais Arguello</b></p>
+                            <hr>
+                            <p> 17 años</p>
+
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="static/img/4.png" alt="">
+                        <div class="hover-galeria">
+                            <img class="Hora" src="static/img/equipo.png" alt="">
+                            <p><b>Valentin Álvarez</b></p>
+                            <hr>
+                            <p>15 años</p>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="static/img/guardia.jpeg" alt="">
+                        <div class="hover-galeria">
+                            <img class="Hora" src="static/img/Horarios.png" alt="">
+                            <p><b>Guardia</b></p>
+                            <hr>
+                            <p>Lunes a Viernes</p>
+                            <hr>
+                            <p>09:00 a 13:00</p>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="static/img/farmacia.jpeg" alt="">
+                        <div class="hover-galeria">
+                            <img class="Hora" src="static/img/Horarios.png" alt="">
+                            <p><b>Farmacia</b></p>
+                            <hr>
+                            <p>Lunes a Viernes</p>
+                            <hr>
+                            <p>09:00 a 13:00</p>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="static/img/logo2.jpeg" alt="">
+                        <div class="hover-galeria">
+                            <img class="Hora" src="static/img/Horarios.png" alt="">
+                            <p><b>Vacunatorio</b></p>
+                            <hr>
+                            <p>Lunes a Viernes</p>
+                            <hr>
+                            <p>09:00 a 13:00</p>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="static/img/consultorio.jpeg" alt="">
+                        <div class="hover-galeria">
+                            <img class="Hora" src="static/img/Horarios.png" alt="">
+                            <p><b>Consultorio externo</b></p>
+                            <hr>
+                            <p>Lunes a Viernes</p>
+                            <hr>
+                            <p>24 hs</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <br>
+    </main>
+    
+    <footer id="footer">
+        <div class="scroll" ></div>
+        <h2 class="titulo-final">&copy; Mendoza Futura | Santa Rosa</h2>
+    </footer>
+    
+
+    </div>
+    <script src="{{ url_for('static', filename='js/menu.js')}}"></script>
+
+</body>
+
+
+
+
+</html>
